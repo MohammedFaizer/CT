@@ -17,7 +17,7 @@ def gfg():
       mydict = { "name":first_name, "address":last_name }
       mycol.insert_one(mydict)
       app2.main()
-      return render_template("iopk.htm")
+      return render_template("iopk.html")
       
    return render_template("index.html")
 if __name__=='__main__':
